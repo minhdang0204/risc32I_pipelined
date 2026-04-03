@@ -14,16 +14,16 @@ A 32-bit pipelined RISC-V CPU implemented in Verilog HDL. The design supports ar
 ![CPU Block Diagram](docs/block_diagram.png)
 
 ## Program for test
-addi x1,x0,5
-add x2,x1,x1
-add x3,x2,x1
-lw x4,0(x0)
-add x5,x4,x1
-beq x1,x1,+8
-flush
-addi x7,x0,77
-sw x7,4(x0)
-ori x8,x0,1
+- addi x1,x0,5
+- add x2,x1,x1
+- add x3,x2,x1
+- lw x4,0(x0)
+- add x5,x4,x1
+- beq x1,x1,+8
+- flush
+- addi x7,x0,77
+- sw x7,4(x0)
+- ori x8,x0,1
 
 ## Testbench Result
 ![Testbench Result](docs/tb_result.png)
