@@ -11,8 +11,6 @@ A 32-bit pipelined RISC-V CPU implemented in Verilog HDL. The design supports ar
 - Verified by testbench simulation and FPGA testing
 
 ## Block Diagram
-> Put your block diagram image in `docs/block_diagram.png`
-
 ![CPU Block Diagram](docs/block_diagram.png)
 
 ## Program for test
@@ -28,8 +26,6 @@ sw x7,4(x0)
 ori x8,x0,1
 
 ## Testbench Result
-> Put your simulation result image in `docs/tb_result.png`
-
 ![Testbench Result](docs/tb_result.png)
 
 ## Verification Summary
